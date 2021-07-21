@@ -1,12 +1,10 @@
-import snowpack from '@snowpack/web-test-runner-plugin'
-
-process.env.NODE_ENV = 'test';
+import vite from 'vite-web-test-runner-plugin'
 
 export default {
-    files: './*.test.ts',
+    files: 'src/*.test.ts',
     nodeResolve: true,
     plugins: [
-        snowpack()
+        vite()
     ],
     watch: true,
     manual: false,
