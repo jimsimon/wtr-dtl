@@ -1,0 +1,4 @@
+.snowpack
+*.js
+node_modules
+.idea
