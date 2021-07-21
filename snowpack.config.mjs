@@ -3,6 +3,6 @@ export default {
     packageOptions: {
         external: ['fsevents'],
         polyfillNode: true,
-        source: 'remote'
+        source: 'local'
     },
 }

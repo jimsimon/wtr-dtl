@@ -1,6 +1,6 @@
-# Web Test Runner + DOM Testing Library (Snowpack - remote)
+# Web Test Runner + DOM Testing Library (Snowpack - local)
 
-I'm not 100% sure why, but this version works. Might be something to do with
-how snowpack handles the dependencies when set to `source: remote`.
+This version bombs out when snowpack is doing its initial build.
+It seems to choke on `promisify`.
 
 `npm install` then run the tests with `npm run test`
