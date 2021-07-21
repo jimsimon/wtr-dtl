@@ -1,6 +1,6 @@
-# Web Test Runner + DOM Testing Library (Snowpack - remote)
+# Web Test Runner + DOM Testing Library (No Snowpack - Only Web Dev Server)
 
-I'm not 100% sure why, but this version works. Might be something to do with
-how snowpack handles the dependencies when set to `source: remote`.
+This version bombs out on a bunch of CJS dependencies. Some are fixable with
+the CJS rollup plugin, but some still don't work.
 
 `npm install` then run the tests with `npm run test`
