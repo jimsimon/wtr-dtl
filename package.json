@@ -12,14 +12,14 @@
     "lit": "^2.0.0-rc.2"
   },
   "devDependencies": {
-    "concurrently": "^6.2.0",
-    "@web/test-runner": "^0.13.13",
-    "@web/dev-server-rollup": "^0.3.5",
-    "@web/dev-server-esbuild": "^0.2.12",
-    "@rollup/plugin-commonjs": "^19.0.0",
-    "@open-wc/testing": "^2.5.33",
-    "@testing-library/dom": "^8.1.0",
+    "concurrently": "^7.0.0",
+    "@web/test-runner": "^0.13.27",
+    "@web/dev-server-rollup": "^0.3.15",
+    "@web/dev-server-esbuild": "^0.2.16",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@open-wc/testing": "^3.0.4",
+    "@testing-library/dom": "^8.11.3",
     "@esm-bundle/chai": "^4.3.4",
-    "typescript": "^4.3.5"
+    "typescript": "^4.5.5"
   }
 }
